@@ -1,3 +1,7 @@
+# Start the app
+1. go to GameServer directory: node ./gameserver.js
+2. go to project root: ng serve --open
+
 # Conworld
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
