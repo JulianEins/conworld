@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    height: 100%;
+}
+
+html{
+    background: rgb(17, 17, 17);
+    text-align: center;
+}
+
+body{
+    width: 1280px;
+    margin: 0px auto;
+    font-family: cursive;
+    font-size: 28pt;
+    color: white;
+}
+
+input{
+    font-size: 20pt;
+    font-family: cursive;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding-left: 12px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgb(138, 128, 130);
+    font-family: cursive;
+  }
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgb(138, 128, 130);      
+    font-family: cursive;
+}
+
+input:focus{
+    outline: none;
+}

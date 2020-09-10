@@ -1,0 +1,19 @@
+<div id="level">
+
+    <div id="gameInfo">
+
+        <div id="levelHeader">
+            Room: {{gameService.roomName}}  
+            Admin: {{gameService.playerName}} 
+            Admin HP: {{gameService.life}} / {{gameService.MAX_LIFE}} 
+            Guest: {{gameService.enemyName}}
+        </div>
+        <div id="mapInfo">
+            Map: {{mapName}} 
+            Dimension: {{mapWidth}} x {{mapHeight}}
+        </div>
+
+    </div>
+    <canvas id="map"></canvas>
+
+</div>

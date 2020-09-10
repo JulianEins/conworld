@@ -1,0 +1,20 @@
+#nicknameInput{
+    margin-bottom: 30px;
+}
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+td{
+    padding: 20px;
+}
+
+#joinButton{
+    content:url("./../../assets/joinButtonNormal.png");
+}
+
+#createButton{
+    content:url("./../../assets/createButtonNormal.png");
+}

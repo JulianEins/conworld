@@ -1,0 +1,16 @@
+<div id="mainMenu">
+    <p>WELCOME TO CONWORLD</p>
+    <input [(ngModel)]="nickname" spellcheck="false" autocomplete=“off” type="text" id="nicknameInput" placeholder="Nickname">
+    <table>
+        <tr>
+            <td><img id="joinButton" (click)="tryJoinGame()"></td>
+            <td><input [(ngModel)]="roomNameJoin" spellcheck="false" autocomplete=“off” type="text" id="roomNameInput" placeholder="Name of friend's room"></td>
+        </tr>
+        <tr>
+            <td><img id="createButton" (click)="tryCreateGame()"></td>
+            <td><input [(ngModel)]="roomNameCreate" spellcheck="false" autocomplete=“off” type="text" id="createNameInput" placeholder="Room Name"></td>
+        </tr>
+    </table>
+
+
+</div>
